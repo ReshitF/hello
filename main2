@@ -1,0 +1,7 @@
+from random import randrange
+number = randrange(10)+1
+input = input("Guess a number:")
+if input == number:
+    print("pog")
+else:
+    print ('not pog')
